@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); Pacifico icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /* Bootstrap icons */
+/* @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap'); */
+/* <style> */
+/* @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
+/* </style> */
+
+:root {
+    --background-accent: #09041C;
+    --light-accent-color-text: #9770ba;
+    --grey-text: #a3a0a0;
+}
+
+* {
+    scroll-behavior: smooth;
+    color: white;
+}
+
+.use-pacifico-regular {
+    font-family: "Playwrite CA", cursive;
+    font-weight: 400;
+    text-decoration: dotted;
+    /* font-style: italic; */
+}
+  
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+/* large paragraph */
+.l-p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.69px;
+}
+
+/* small paragraph */
+.s-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+/* xs paragraph */
+.xs-p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.56px;
+    letter-spacing: 0.01em;
+}
+
+ul > li {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h5 {    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h6 {
+    font-family: Product Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.glassmorph {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Inner spacing */
+}
+
+.website-margins {
+    margin: 0 40px;
+}
+  
+.website-paddings {
+    padding: 0 40px;
+} 
+
+.sm-header {
+    color: var(--light-accent-color-text);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.grey-text {
+    color: var(--grey-text);
+}
