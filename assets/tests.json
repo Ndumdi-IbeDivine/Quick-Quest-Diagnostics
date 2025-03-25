@@ -1,0 +1,3366 @@
+[
+    {
+        "category": "Bacteriology",
+        "name": "Tuberculin"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Gram Stain Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Urine Microscopy"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Mantoux"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Urine Analysis"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Pus Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Throat Swab Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Fungus Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Sputum Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Occult Blood In Stool"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "WIDAL Test"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Serum T.B"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Peri-anal Swab Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Skin Examination For Fungi"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Skin Scraping"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Ascitic Fluid Examination"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "MP & Widal"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Sputum Cytology (One Sample)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "SKIN MYCOLOGY"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Surgical Tissue Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Tongue Swab Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Bile Aspirate Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Semen M\/C\/S (Pre-washed)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Semen Analysis"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Uretheral Discharge Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Cervical Discharge Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Blood Culture and Sensitivity [Brucella]"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Sputum Examination for T.B. (3 Samples)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Endocervical swab"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Chlamydia trachomatis Antigen Detection"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Helicobacter pylori antibody"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Helicobacter pylori antigen (in stool)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Pus Culture and Sensitivity (Aerobic)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Fungus Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Sputum Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Throat Swab Cutlure and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Semen M\/C\/S"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Eye Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Gonorrhea Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Left Ear Discharge Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Right Ear Discharge Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Nasal Discharge Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Salmonella Culture ( Stool)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Catheter Tip Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Wound Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Helicobacter pylori screening"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Swab Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Ascitic Fluid Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Peritoneal Fluid Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Synovial Fluide Culture"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Stool M\/C\/S"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Urine M\/C\/S"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Urethral Swab M\/c\/s"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "HVS M\/C\/S"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Blood Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Pleural Fluid Culture and Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "CSF Culture and  Sensitivity"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Blood Culture For Fungui"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Sputum Cytology (3 Samples)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Pus Culture and Sensitivity (Aerobic and anaerobic)"
+    },
+    {
+        "category": "Bacteriology",
+        "name": "Herpes Simplex Antigen Detection"
+    },
+    {
+        "category": "Chemistry",
+        "name": "CSF Chemistry Profile"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Gamma GT"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Bilirubin - total"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Bilirubin - direct"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Blood Urea"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Alk.phosphatase"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Calcium"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Chloride-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Potassiom-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "AST(SGOT)"
+    },
+    {
+        "category": "Chemistry",
+        "name": " ALT(SGPT)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Sodium-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Total Protein-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Albumin"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Bicarbonate (HCO3)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose After 1Hour"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose After 2 Hours"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose PP after 75 gm glucose"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose After 2 Hours (HC)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Fasting Glucose\/ Random Glucose"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Fasting Blood Glucose"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Random Blood Glucose"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatinine For Scan"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Cholesterol - Total"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Uric acid-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Alk.phosphatase in Body Fluid"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatinine, serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Phosphate-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Triglyceride"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Chloride (CSF)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose ( Any Fluids )"
+    },
+    {
+        "category": "Chemistry",
+        "name": "LDL - C"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose in CSF"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Total Protein (CSF)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Albumin (Body Fluid)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Protein, total in body fluid"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Urea in Body Fluid"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Urea-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "CRP (Qualitative)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatinine, 24hrs Urine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatinine in urine, random"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Protein in 24 hrs Urine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Fasting Glucose & Post Prandial Glucose"
+    },
+    {
+        "category": "Chemistry",
+        "name": "HDL-C"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Physical Examination"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Potassium (Body Fluid)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Magnesium-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "VLDL"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Kidney F.T."
+    },
+    {
+        "category": "Chemistry",
+        "name": "Electrolytes-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Estimated Glomerular filtration rate (eGFR)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Alkaline Phosphatase(ALP)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Myoglobin in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "LDH-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "LDH (Body Fluid)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Serum Iron"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Bilirubin ( T&D )"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Pleural Fluid Examination"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Rheumatoid Factor (Qualitative)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Acid Phosphatase (Total & Prostatic) in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Multi Drug Abuse Qualitative"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Free T3  in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Free T4  in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Antistreptolysin O Titer (ASOT)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Electrolytes,Urea & Creatinine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Amylase-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "CRP (Quantitative)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatinine Clearance"
+    },
+    {
+        "category": "Chemistry",
+        "name": "CPK - Total"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Lipase-Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Rheumatoid Factor (Quantitative)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Lithium"
+    },
+    {
+        "category": "Chemistry",
+        "name": "ionized Ca++"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Ascitic Fluid Chemistry Profile"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Lead"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Rheumatoid Factor (Synovial Fluid)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Lipid Profile"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Liver Function Test"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Cortisol-Am in serum "
+    },
+    {
+        "category": "Chemistry",
+        "name": "Haemoglobin A1C"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Ferritin"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Drugs of abuse (qualitative, strips)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Albumin\/ creatinine ratio, Urine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Troponine I"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Vitamin B12 (Cyanocobalamin) Level in  serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Glucose Tolerance Test (OGTT)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Full Toxicology panel"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Toxicology panel"
+    },
+    {
+        "category": "Consultation",
+        "name": "Audiometry Examination"
+    },
+    {
+        "category": "Consultation",
+        "name": "SPIROMETRY"
+    },
+    {
+        "category": "CR",
+        "name": " ADDITIONAL CDS"
+    },
+    {
+        "category": "CR",
+        "name": " ADDITIONAL FILMS - REGULAR X-RAY"
+    },
+    {
+        "category": "CR",
+        "name": " ADDITIONAL FILMS - SPECIAL X-RAY"
+    },
+    {
+        "category": "CR",
+        "name": "Chest (Student) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Chest (Wellness) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "P\/N & OM View X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Post Nasal Space X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Chest A.P X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Chest P.A.Only X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": " ADDITIONAL FILMS - MRI & CT"
+    },
+    {
+        "category": "CR",
+        "name": "Skull xray"
+    },
+    {
+        "category": "CR",
+        "name": "CHEST X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Ankle ( Ap\/Lat ) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Ankle (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Clavicle X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Foot X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Foot (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Foot (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Forearm (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Forearm X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hand (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hand (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hand X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hip Joint AP & LAT. (one hip + pelvic) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hip Joint X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Humerus (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Humerus X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Knee Joint X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "KNEE X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Leg (tibia & Fibula) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Mandible\/maxilla (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Mandible\/Maxilla X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Mastoids\/IAM X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvis (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pituitary Fossa X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Shoulder Joint (ap & Lat) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Shoulder Joint (ap & Lat) (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Shoulder joint (AP\/LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Shoulder Joint(AP & LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Shoulder X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Skull (AP + LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Skull (ap = Lat) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Skull (AP = LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Skull AP\/Lat  X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Temporo-Mandibular Joint X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Wrist Joint (ap \/ Oblique \/ Lat) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Wrist Joint (AP \/ Oblique \/ LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Wrist joint (AP\/Oblique\/LAT) (Left or Right) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Wrist Joint (ap\/oblique\/lat) (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Hand AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Humerus AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Knee Joint AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Leg (Tibia & Fibular) AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvis and Hips X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Ankle (AP + LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Ankle (AP + LAT) X-Ray (Digital)"
+    },
+    {
+        "category": "CR",
+        "name": "Hip Joint AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Chest P.A. & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen (kub) (v)"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen (kub) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen (KUB) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "ANKLE LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "ANKLE RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Ankle X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Femur (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Femur AP\/LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Femur X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "FEMUR(THIGH)LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "FEMUR(THIGH)RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "FOOT LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "FOOT RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HAND LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HAND RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HUMERUS LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HUMERUS RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Knee Joint (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "KNEE LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lateral Pelvimetry X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "MANDIBLE X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvis X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "SHOULDER LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "SHOULDER RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "SKUL X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Thoracic Spine X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "WRIST LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "WRIST RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "KNEE RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen Erect And Supine"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen Erect And Supine (v)"
+    },
+    {
+        "category": "CR",
+        "name": "ABDOMEN (E & S) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen Erect And Supine (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen Erect and Supine X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "ELBOW LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "ELBOW RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvis AP & LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Abdomen Erect and Supine X-Ray (Digital)"
+    },
+    {
+        "category": "CR",
+        "name": "Nasophanya (PNS) Post Nasal Space X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvic and Hips X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pelvic And Hips (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Pns (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Post Nasal (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Post Nasal X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Cervical Spine Ap & Lap (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Cervical Spine Ap & Lap (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Cervical Spine AP & LAP X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Cervical Spine AP\/Lateral X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Cervical Spine Obliques X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "CERVICAL SPINE X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HIP LT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HIP RT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Thoraco-lumbar X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Ankles X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Ankles (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Elbow Joint (AP + LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Elbow Joint (ap+lat) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Feet X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Femora X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Hand X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Hands (Digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Hips (Digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Hips X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Humerus (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Knee Joints (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Knee Joints (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Knee Joints X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Should Joints (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Should Joints X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Shoulder Joints X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Temporo-Madibula X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Tib & Fib (both Legs) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Tib & Fib (Both Legs) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Wrist Joint X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both wrist joints left or right X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Elbow Joint (ap + Lat) (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Elbow Joint (ap + Lat) (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Elbow Joint (AP + LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Elbow Joint (AP\/LAT) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Leg (Tibia & Fibula) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo \/ Sacral Spine With Obliques X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo \/ Sacral Spine X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo\/sacral Spine (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo\/Sacral Spine with Obliques X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo\/Sacral Spine X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Radios & Ulna (Foream) with Both Joint X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Radius and Ulna (AP\/LAT) (one) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Radius And Ulna (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Sinuses X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Feet (Digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Forearm"
+    },
+    {
+        "category": "CR",
+        "name": "LUMBAR SPINE X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Lumbo Sacral Spine AP\/LAT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Temporo-mandibular Joint (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Elbow X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Femur X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Humerus X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Knee X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both Shoulder X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Both WRISTX-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "FOREARM (ULNA \/RADIUS) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "PARANASAL SINUSES X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Para Nasal (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Para Nasal (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Para Nasal Sinuses X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Para Nasal X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Sinuses (digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Thoraco-Columbar X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Mammography (v) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Mammography X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Fistulogram X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Barium Enema (Digital) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Barium Enema X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Barium Swallow + Barium meal & FT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "RETROGRADE URETH\/MIC X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Barium Meal & FT X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Micturating Cisto-Urethrogram (MCU) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Retrograde Urethrogram (RUG) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "Intravenous Urography (IVU) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "HYSTEROSALPINGOGRAM (HSG) X-Ray"
+    },
+    {
+        "category": "CR",
+        "name": "MRI abdomen"
+    },
+    {
+        "category": "CT",
+        "name": "CT ABDOMEN \/ABDOMINOPELVIC"
+    },
+    {
+        "category": "CT",
+        "name": "CT Abdominal"
+    },
+    {
+        "category": "CT",
+        "name": "CT ANGIOGRAPHY"
+    },
+    {
+        "category": "CT",
+        "name": "CT BRAIN"
+    },
+    {
+        "category": "CT",
+        "name": "CT CERVICAL SPINE"
+    },
+    {
+        "category": "CT",
+        "name": "CT CHEST\/ABDOMEN"
+    },
+    {
+        "category": "CT",
+        "name": "CT CHEST (High Resolution CT)"
+    },
+    {
+        "category": "CT",
+        "name": "CT COLONOGRAPHY"
+    },
+    {
+        "category": "CT",
+        "name": "CT COMPACT DISC (CD)"
+    },
+    {
+        "category": "CT",
+        "name": "CT CRANIAL"
+    },
+    {
+        "category": "CT",
+        "name": "CT CRANIOFACIAL"
+    },
+    {
+        "category": "CT",
+        "name": "CT EXTREMITIES "
+    },
+    {
+        "category": "CT",
+        "name": "CT GUIDED PROCEDURES(EXTRA CHARGE)"
+    },
+    {
+        "category": "CT",
+        "name": "CT IAMS (Ear)"
+    },
+    {
+        "category": "CT",
+        "name": "CT KUB (Kidney, Urether,Bladder)"
+    },
+    {
+        "category": "CT",
+        "name": "CT LUMBAR SPINE"
+    },
+    {
+        "category": "CT",
+        "name": "CT ORBITS"
+    },
+    {
+        "category": "CT",
+        "name": "CT THORACIC SPINE"
+    },
+    {
+        "category": "CT",
+        "name": "CT WHOLE BODY"
+    },
+    {
+        "category": "CT",
+        "name": "CT UROGRAM"
+    },
+    {
+        "category": "CT",
+        "name": "CT CRANIO-CERVICAL"
+    },
+    {
+        "category": "CT",
+        "name": "CT Paranasal (Adult)"
+    },
+    {
+        "category": "CT",
+        "name": "CT Paranasal (Pediatrics)"
+    },
+    {
+        "category": "CT",
+        "name": "CT Chest (Adult)"
+    },
+    {
+        "category": "CT",
+        "name": "CT Urogram (Adult)"
+    },
+    {
+        "category": "CT",
+        "name": "CT Neck"
+    },
+    {
+        "category": "CT",
+        "name": "CT Pelvic"
+    },
+    {
+        "category": "CT",
+        "name": "CT Pelvimetry"
+    },
+    {
+        "category": "EEG",
+        "name": "EEG"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Pregnancy name in urine"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Blood Pregnancy Test"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Beta Subunit HCG (Qualitative)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "B-hCG In CSF"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "T3  Total in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "T4  Total in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Prolactin in serum "
+    },
+    {
+        "category": "Endocrinology",
+        "name": "FSH(Follicle Stimulating Hormone) in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "TSH in  serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "LH(Luteinizing Hormone) in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Progesterone in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Estradiol E2 in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Total HCG in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "CA 19-9"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Brucella Antibody (Malta)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Fertility profile"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "CEA"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "CEA (FLUID)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Total-Testosterone in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "CA125"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "PSA-Total"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "LH\/RH Stimulation Test: 2x FSH + 2x LH."
+    },
+    {
+        "category": "Endocrinology",
+        "name": "CA15-3"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Total HCG (Quantitative)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Alpha-fetoprotein (AFP)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Oestrogen "
+    },
+    {
+        "category": "Endocrinology",
+        "name": "PSA-Free"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "PSA (Total & Free)"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Thyroid Function Test"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Anti Mullerin Hormone-Adult(AMH) in serum"
+    },
+    {
+        "category": "Endocrinology",
+        "name": "Free Testosterone  in  serum"
+    },
+    {
+        "category": "ENDOSCOPY",
+        "name": "ENDOSCOPY"
+    },
+    {
+        "category": "ENDOSCOPY",
+        "name": "COLONOSCOPY"
+    },
+    {
+        "category": "ENDOSCOPY",
+        "name": "Colonoscopy ( Lower GI )"
+    },
+    {
+        "category": "Hematology",
+        "name": "ABO Grouping"
+    },
+    {
+        "category": "Hematology",
+        "name": "Bleeding Time (BT)"
+    },
+    {
+        "category": "Hematology",
+        "name": "PACKED CELL VOLUM  (PCV)"
+    },
+    {
+        "category": "Hematology",
+        "name": "ESR"
+    },
+    {
+        "category": "Hematology",
+        "name": "Blood Grouping (ABO&Rh)"
+    },
+    {
+        "category": "Hematology",
+        "name": "Activated  Partial Thromboplastine  Time APTT"
+    },
+    {
+        "category": "Hematology",
+        "name": "Platelet Count"
+    },
+    {
+        "category": "Hematology",
+        "name": "WBCs (Total & Differential)"
+    },
+    {
+        "category": "Hematology",
+        "name": "Haemoglobin (Hb) &Haematocrit HCT "
+    },
+    {
+        "category": "Hematology",
+        "name": "Full Blood Count"
+    },
+    {
+        "category": "Hematology",
+        "name": "Reticulocytic Count"
+    },
+    {
+        "category": "Hematology",
+        "name": "Sickle Cell Smear"
+    },
+    {
+        "category": "Hematology",
+        "name": "Blood Group & Rhesus & Genotype"
+    },
+    {
+        "category": "Hematology",
+        "name": "Clotting Time (CT)"
+    },
+    {
+        "category": "Hematology",
+        "name": "Peripheral Blood Film"
+    },
+    {
+        "category": "Hematology",
+        "name": "Genotype"
+    },
+    {
+        "category": "Hematology",
+        "name": "Coomb's Test \"Direct\""
+    },
+    {
+        "category": "Hematology",
+        "name": "Genotype & Blood Group"
+    },
+    {
+        "category": "Hematology",
+        "name": "INR"
+    },
+    {
+        "category": "Hematology",
+        "name": "Coomb's Test \"Indirect\""
+    },
+    {
+        "category": "Hematology",
+        "name": "Prothrombin Time (PT)"
+    },
+    {
+        "category": "Hematology",
+        "name": "Activated Partial Thromboplastin Time (PTT)"
+    },
+    {
+        "category": "Hematology",
+        "name": "ABO Antibody titre"
+    },
+    {
+        "category": "Hematology",
+        "name": "D-dimer"
+    },
+    {
+        "category": "Hematology",
+        "name": "Fibrinogen Level"
+    },
+    {
+        "category": "Histopathology",
+        "name": "FNAC (Taken Outside Lab)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Biopsy (Bone) (Medium)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Biopsy (Bone) (Small)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry (Myeloperoxidase)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry (E-Cadherin)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Liver Biopsy"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Liquid Base Cytology"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Biopsy (Bone) (Large)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry panel, Breast (ER. PR, HER-2)"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry Er Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry Pr Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry  Her 2 Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry  Mammaglobin Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry Gcfap-15 Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "Immunohistochemistry  Ki67 Stain"
+    },
+    {
+        "category": "Histopathology",
+        "name": "S100"
+    },
+    {
+        "category": "Histopathology",
+        "name": "PANCYTOKERATIN  Ae1\/3"
+    },
+    {
+        "category": "Lab",
+        "name": "Biopsy (Medium)"
+    },
+    {
+        "category": "Lab",
+        "name": "Biopsy (Large)"
+    },
+    {
+        "category": "Lab",
+        "name": "Renal Biopsy (Adult)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI ABDOMEN\/ABDOMIN0PELVIC"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI BRAIN"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI CERVICAL SPINE"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI CHEST \/HRCT"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI CHEST\/ABDOMEN"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI EXTREMITIES"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI KUB"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI LUMBAR SPINE"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI NECK"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI PELVIC"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI RENAL"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI THORACIC SPINE"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI WHOLE BODY(whole spine, brain, abdomen and pelvis)."
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Extremities (Adult)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Extremities (Pediatrics)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Knee (Adult)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Knee (Pediatrics)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Thigh (Adult)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Thigh (Pediatrics)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Arthrography - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Arthrography - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Brachial Plexus"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI brain + MRA"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI brain + MRA + MRV"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI brain + MRV"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI brain + spectroscopy"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI brain lab protocol"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI breast"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI cervical spine with myelography"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI clavicle - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI clavicle - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI CSF flowmetry"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI diffusion (stroke protocol)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI dorsal\/thoracic spine with myelography"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI elbow joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI elbow joint - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI face"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI fistulography"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI foot - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI foot - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI forearm - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI hand - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI hand - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI heart"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI hip joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI larynx"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI lumbar\/lumbosacral spine with myelography"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI mandible - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI mandible - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI maxilla - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI maxilla - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI nasopharynx"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI orbit"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI paranasal sinuses"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI parotid"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI pelvic floor"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI perfusion"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI petrous\/Temporal bones\/CPA"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI sacro-iliac joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI scapula - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI sella\/pituitary"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI spectroscopy"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI sternum"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI TMJ - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI TMJ - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Tractography"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI Whole spine( Neck,Thoracs,Lumbar)"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI wrist joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRU"
+    },
+    {
+        "category": "MRI",
+        "name": "MRV"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI hip joint - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI knee joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI knee joint - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI leg\/tibia - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI leg\/tibia-left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI shoulder joint - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI shoulder joint - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI thigh\/femur - Left"
+    },
+    {
+        "category": "MRI",
+        "name": "MRI thigh\/femur - Right "
+    },
+    {
+        "category": "MRI",
+        "name": "MRI (both Knees)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Protein Electrophoresis in Serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "TRANSFERRIN"
+    },
+    {
+        "category": "Chemistry",
+        "name": "CK-MB"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Protein \/ creatinine ratio"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Cortisol 24 Hrs in urine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Microalbuminuria (24hrs)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Microalbuminuria (Random)"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Amphetamine Screen"
+    },
+    {
+        "category": "Chemistry",
+        "name": "C-Reactive Protein (Ultra Sensitive),serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "TRANSFERRIN (SOLUBLE RECEPTOR), SERUM"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Homocysteine \"Serum\""
+    },
+    {
+        "category": "Chemistry",
+        "name": "Folic Acid Level in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "oxalate\/creatinine ratio."
+    },
+    {
+        "category": "Chemistry",
+        "name": "Aldosterone in serum"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Folate in Erythrocytes"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Pro BNP"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Protein Electrophoresis in Urine"
+    },
+    {
+        "category": "Chemistry",
+        "name": "PROCALCITONIN"
+    },
+    {
+        "category": "Chemistry",
+        "name": "Creatine Kinase Isoenzymes(MM-BB-MB)(MM\/Fr.):"
+    },
+    {
+        "category": "ELISA",
+        "name": "MEASLES IgG"
+    },
+    {
+        "category": "ELISA",
+        "name": "MEASLES IgM"
+    },
+    {
+        "category": "Hematology",
+        "name": "G6PD Qualitative"
+    },
+    {
+        "category": "Hematology",
+        "name": "Glucose 6-Phosphate Dehydrogenase Assay 13"
+    },
+    {
+        "category": "Hematology",
+        "name": "G6PD Quantitative"
+    },
+    {
+        "category": "Hematology",
+        "name": "Bone Marrow Aspiration"
+    },
+    {
+        "category": "Immunology",
+        "name": "HBs Ag Quantitative"
+    },
+    {
+        "category": "Immunology",
+        "name": "HAV IgG"
+    },
+    {
+        "category": "Immunology",
+        "name": "HBc IgM"
+    },
+    {
+        "category": "Immunology",
+        "name": "HAV IgM"
+    },
+    {
+        "category": "Immunology",
+        "name": "IgE \"Total\""
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "HIV VIRAL LOAD"
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "HBV Viral Load"
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "HCV RNA Quantitative by PCR (TaqMan)"
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "JAK 2 (janus kinase 2 gene) by Real Time PCR"
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "BCR-ABL Gene Rearrangement by Real- Time PCR"
+    },
+    {
+        "category": "Molecular Biology",
+        "name": "Paternity Test (+1 Extra Child)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Potassium in 24 hrs urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "Free Thyroxin Index(FTI) in Serum (Total T4 & FT4)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Protein In 24 Hours Urine."
+    },
+    {
+        "category": "Outsource",
+        "name": "Surface swab culture for Identification only "
+    },
+    {
+        "category": "Outsource",
+        "name": "Magnesium in 24 Hrs Urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti D antibody Titre"
+    },
+    {
+        "category": "Outsource",
+        "name": "Sodium in 24 Hrs Urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "Aldolase"
+    },
+    {
+        "category": "Outsource",
+        "name": "Thrombin Time"
+    },
+    {
+        "category": "Outsource",
+        "name": "Brain Abscess Culture and Sensitivity"
+    },
+    {
+        "category": "Outsource",
+        "name": "TB Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Alpha-1-antitrypsin"
+    },
+    {
+        "category": "Outsource",
+        "name": "ADA - Adenosine Deaminase (Fluid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "PAP SMEAR"
+    },
+    {
+        "category": "Outsource",
+        "name": "Urine Cytology"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Others)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Pleural Fluid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Urine)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (CSF)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Ascitic Fluid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Nipple)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Synovial Fluid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cytology (Peritoneal Fluid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "C3"
+    },
+    {
+        "category": "Outsource",
+        "name": "C4"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Prothrombin IgG Antibody"
+    },
+    {
+        "category": "Outsource",
+        "name": "DNASE B"
+    },
+    {
+        "category": "Outsource",
+        "name": "Russell’s Viper Venom (VVP)"
+    },
+    {
+        "category": "Outsource",
+        "name": "ACE in Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "Troponine T (hs)"
+    },
+    {
+        "category": "Outsource",
+        "name": "GONOCOCCAL ANTIBODIES"
+    },
+    {
+        "category": "Outsource",
+        "name": "C-Peptide (Fasting) in serum "
+    },
+    {
+        "category": "Outsource",
+        "name": "Cortisol-Pm in serum "
+    },
+    {
+        "category": "Outsource",
+        "name": "Rubella IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "Toxoplasmosis IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "TPHA"
+    },
+    {
+        "category": "Outsource",
+        "name": "C-Peptide after 2hr in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Sperm Ab. Titre in Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "C-Peptide (Random) in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "11-Deoxycorticosterone"
+    },
+    {
+        "category": "Outsource",
+        "name": "Cortisol (Random ) in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Varicella Zoster Virus (VZV)  IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANA titre by IF"
+    },
+    {
+        "category": "Outsource",
+        "name": "Mumps IgG "
+    },
+    {
+        "category": "Outsource",
+        "name": "CYSTICERCOSIS Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Aspergillus Galactomannam"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Prothrombin IgA Antibody"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Prothrombin IgM Antibody"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Cardiolipin IgA"
+    },
+    {
+        "category": "Outsource",
+        "name": "Pathological Examination , Small (Histopathology)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Immunophenotyping :CD4"
+    },
+    {
+        "category": "Outsource",
+        "name": "LKM-1"
+    },
+    {
+        "category": "Outsource",
+        "name": "ADNA (ds)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti DNA & Titre"
+    },
+    {
+        "category": "Outsource",
+        "name": "ADNA by IF"
+    },
+    {
+        "category": "Outsource",
+        "name": "SEX HORMONE"
+    },
+    {
+        "category": "Outsource",
+        "name": "HSV II IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "HSV II IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "HSV I IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Serum Ascites Albumin Gradiant (SAAG)"
+    },
+    {
+        "category": "Outsource",
+        "name": "CRYOGLOBULIN"
+    },
+    {
+        "category": "Outsource",
+        "name": "EBV IgM (VCA-IgM)"
+    },
+    {
+        "category": "Outsource",
+        "name": "MUMPS IgG , IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Rubella IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Toxoplasmosis IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Varicella Zoster Virus (VZV)  IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "MYCOPLASMA IGM"
+    },
+    {
+        "category": "Outsource",
+        "name": "CMV IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "CMV IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Insulin (Fasting)  in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Insulin after 2 hours in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti C.C.P. Antibodies"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep B Core Antibody Total"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep A IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep C Ab IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep A IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep B core IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "ASOT & DNASE B"
+    },
+    {
+        "category": "Outsource",
+        "name": "DHEA-S ( Dehydroepiandrosterone Sulfate ) in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "GH Growth Hormone  in serum  ( Basal )"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti-Cardiolipin IgG (ACL)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti-Cardiolipin IgM (ACL)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Pathological Examination , Large (Histopathology)"
+    },
+    {
+        "category": "Outsource",
+        "name": "B2 Microglobulin in Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "MEASLES IgG , IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "FNAC"
+    },
+    {
+        "category": "Outsource",
+        "name": "Ultrasound guided FNAC "
+    },
+    {
+        "category": "Outsource",
+        "name": "Antihuman Tissue Transglutaminase (hu tTG) Screen IgA"
+    },
+    {
+        "category": "Outsource",
+        "name": "Insulin (Random) in Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Testosterone Profile (Testo, HSBG, Free Index)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Gonococci Examination"
+    },
+    {
+        "category": "Outsource",
+        "name": "Smooth Muscle Antibodies(Titre)by IF:"
+    },
+    {
+        "category": "Outsource",
+        "name": "ENDOMYSIUM Ab IGA"
+    },
+    {
+        "category": "Outsource",
+        "name": "Antihuman Tissue Transglutaminase (hu tTG) Screen IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "CD4 COUNT"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti -beta 2-Glycoprotein 1 (IgG)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti -beta 2-Glycoprotein 1 (IgM)"
+    },
+    {
+        "category": "Outsource",
+        "name": "AMA (M2)"
+    },
+    {
+        "category": "Outsource",
+        "name": "factor VIII inhibitor quantitative"
+    },
+    {
+        "category": "Outsource",
+        "name": "LE Cells (One sample)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hep E Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti SSA (Ro)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti SS-b (LA)"
+    },
+    {
+        "category": "Outsource",
+        "name": "IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Thyroid Binding Globulin (TBG) in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Ige Food Screen (Paed)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Endomysial Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Chlamydia (Trachomatis) Antibody Titre by IF"
+    },
+    {
+        "category": "Outsource",
+        "name": "LEGIONNAIRES Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANA by IF"
+    },
+    {
+        "category": "Outsource",
+        "name": "Tacrolimus (FK506) Peak"
+    },
+    {
+        "category": "Outsource",
+        "name": "11-Deoxy Cortisol"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Thyroid Peroxidase Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Zinc in Blood"
+    },
+    {
+        "category": "Outsource",
+        "name": "Factor VIII Activity"
+    },
+    {
+        "category": "Outsource",
+        "name": "FACTOR VII"
+    },
+    {
+        "category": "Outsource",
+        "name": "Osteocalcin in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "FACTOR XI"
+    },
+    {
+        "category": "Outsource",
+        "name": "FACTOR XII"
+    },
+    {
+        "category": "Outsource",
+        "name": "Factor XIII"
+    },
+    {
+        "category": "Outsource",
+        "name": "TIBC"
+    },
+    {
+        "category": "Outsource",
+        "name": "Lupus Anticoagulant Detection"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Microsomal Antibody (TPO)"
+    },
+    {
+        "category": "Outsource",
+        "name": "HSV I IgG & IgM"
+    },
+    {
+        "category": "Outsource",
+        "name": "Estriol E3 in serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANF\/Ds DNA (ANA)"
+    },
+    {
+        "category": "Outsource",
+        "name": "TSH Receptor Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANTI GAD Antibody"
+    },
+    {
+        "category": "Outsource",
+        "name": "Parathyroid Hormone (PTH)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti GLIADIN-IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "Free Light Chain Kappa\/Lamda"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti- Thyroid Antibodies"
+    },
+    {
+        "category": "Outsource",
+        "name": "17 Alpha OH Progesterone (Neo Scr)"
+    },
+    {
+        "category": "Outsource",
+        "name": "anti beta- 2glycoprotein Ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti - beta 2-Glycoprotein 1 (IgA)"
+    },
+    {
+        "category": "Outsource",
+        "name": "IgE Phadio Top"
+    },
+    {
+        "category": "Outsource",
+        "name": "AUTOIMMUNE SCREEN"
+    },
+    {
+        "category": "Outsource",
+        "name": "vit D 25 Hydroxy Cholecalciferol"
+    },
+    {
+        "category": "Outsource",
+        "name": "Anti Thyroglobulin Ab."
+    },
+    {
+        "category": "Outsource",
+        "name": "ACTH am  in plasma"
+    },
+    {
+        "category": "Outsource",
+        "name": "ACTH pm  in plasma"
+    },
+    {
+        "category": "Outsource",
+        "name": "CALPROTECTIN IN STOOL"
+    },
+    {
+        "category": "Outsource",
+        "name": "Immunoelectrophoresis in Serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "IMMUNOFIXATION, Urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "Down Syndrome 1st Trimester"
+    },
+    {
+        "category": "Outsource",
+        "name": "ALDOSTERONE, URINE"
+    },
+    {
+        "category": "Outsource",
+        "name": "Aldosterone in 24hrs urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "P63 MARKER"
+    },
+    {
+        "category": "Outsource",
+        "name": "HEP B PROFILE STATUS - Acute"
+    },
+    {
+        "category": "Outsource",
+        "name": "VITD (1.25HYDROXYCHOLICALICIFEROL)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Thyroglobulin  in  serum"
+    },
+    {
+        "category": "Outsource",
+        "name": "Quantiferon T.B. -gold (IGRA)"
+    },
+    {
+        "category": "Outsource",
+        "name": "IgE SpecificIgE Food Screen (Adult)"
+    },
+    {
+        "category": "Outsource",
+        "name": "VON WILLERBRANDS Ag"
+    },
+    {
+        "category": "Outsource",
+        "name": "HLA-B27 typing"
+    },
+    {
+        "category": "Outsource",
+        "name": "C1 Esterase Inhibitor"
+    },
+    {
+        "category": "Outsource",
+        "name": "Antiacetylcholine Receptor Blocking Antibodies"
+    },
+    {
+        "category": "Outsource",
+        "name": "ACTH Stimulation Test by Synacthen in plasma"
+    },
+    {
+        "category": "Outsource",
+        "name": "Pancreatic elastase"
+    },
+    {
+        "category": "Outsource",
+        "name": "Bence Jones Prot (ur)"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANA"
+    },
+    {
+        "category": "Outsource",
+        "name": "intrinsic factor blocking ab"
+    },
+    {
+        "category": "Outsource",
+        "name": "Protein S"
+    },
+    {
+        "category": "Outsource",
+        "name": "Xpert - MTB\/RIF"
+    },
+    {
+        "category": "Outsource",
+        "name": "FACTOR V LEIDEN PCR"
+    },
+    {
+        "category": "Outsource",
+        "name": "Human Papilloma Virus (HPV)"
+    },
+    {
+        "category": "Outsource",
+        "name": "HAEMOGLOBIN VARIANTS BY HPLC"
+    },
+    {
+        "category": "Outsource",
+        "name": "ENA"
+    },
+    {
+        "category": "Outsource",
+        "name": "Aldosterone and Renin"
+    },
+    {
+        "category": "Outsource",
+        "name": "Hepatitis Delta IgG"
+    },
+    {
+        "category": "Outsource",
+        "name": "Treponema Pallidum Abs (IgG\/IgM)(CC\/SP.)"
+    },
+    {
+        "category": "Outsource",
+        "name": "HBV DNA Qualitative & Quantitative"
+    },
+    {
+        "category": "Outsource",
+        "name": "karyotyping"
+    },
+    {
+        "category": "Outsource",
+        "name": "Protein C"
+    },
+    {
+        "category": "Outsource",
+        "name": "Everolimus"
+    },
+    {
+        "category": "Outsource",
+        "name": "SPERM DNA FRAGMENTATION"
+    },
+    {
+        "category": "Outsource",
+        "name": "VMA-Vanillyl Mandelic Acid (24 hrs Urine, HPLC Method)"
+    },
+    {
+        "category": "Outsource",
+        "name": "HIV1 QUANTATIVE VIRAL LOAD"
+    },
+    {
+        "category": "Outsource",
+        "name": "Herpes simplex type 1,2by pcr"
+    },
+    {
+        "category": "Outsource",
+        "name": "HCV RNA Qualitative & Quantitative"
+    },
+    {
+        "category": "Outsource",
+        "name": "Maternity Test (Mother)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Maternity Test (Child)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Paternity Test (Father)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Paternity Test (Child)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Vitamin B2 (Riboflavin)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Total Metanephrines, 24-Hour Urine (PHLC Method)"
+    },
+    {
+        "category": "Outsource",
+        "name": "ANCA"
+    },
+    {
+        "category": "Outsource",
+        "name": "Catecholamine,Blood"
+    },
+    {
+        "category": "Outsource",
+        "name": "Allergy Profile 2"
+    },
+    {
+        "category": "Outsource",
+        "name": "IgE Allergy Screen"
+    },
+    {
+        "category": "Outsource",
+        "name": "Erythrocyte Protoporphirine (EPP)"
+    },
+    {
+        "category": "Outsource",
+        "name": "ENA PANEL"
+    },
+    {
+        "category": "Outsource",
+        "name": "Vitamin B6 (Pyridoxine) "
+    },
+    {
+        "category": "Outsource",
+        "name": "Vitamin B5 (Pantothenic acid)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Erythropoietin"
+    },
+    {
+        "category": "Outsource",
+        "name": "Paternity Test (Father & 1 Child)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Vitamin B3 (Niacin)"
+    },
+    {
+        "category": "Outsource",
+        "name": "BRCA (1&2)"
+    },
+    {
+        "category": "Outsource",
+        "name": "Bone Marrow Karyotyping"
+    },
+    {
+        "category": "Pathology - Others ",
+        "name": "G6PD (New Born) - Blood"
+    },
+    {
+        "category": "Serology",
+        "name": "EBV (IgM and IgG)"
+    },
+    {
+        "category": "Serology",
+        "name": "HIV-p24 ANTIGEN"
+    },
+    {
+        "category": "Serology",
+        "name": "Hep B Envelope Ag"
+    },
+    {
+        "category": "Serology",
+        "name": "Hep C Ab (Chemiluminescent Technology)"
+    },
+    {
+        "category": "Serology",
+        "name": "Hep B Envelope Ab"
+    },
+    {
+        "category": "Serology",
+        "name": "HBs Ab"
+    },
+    {
+        "category": "Virology",
+        "name": "Hepatitis B Profile"
+    },
+    {
+        "category": "Lab",
+        "name": "FACTOR X"
+    },
+    {
+        "category": "Parasitology",
+        "name": "Stool Analysis"
+    },
+    {
+        "category": "Parasitology",
+        "name": "Malaria Parasite"
+    },
+    {
+        "category": "Parasitology",
+        "name": "Blood Film for Microfilaria"
+    },
+    {
+        "category": "Parasitology",
+        "name": "Leishmania Examination"
+    },
+    {
+        "category": "Serology",
+        "name": "RPR (name for syphilis)"
+    },
+    {
+        "category": "Serology",
+        "name": "VDRL"
+    },
+    {
+        "category": "Serology",
+        "name": "HIV I & II"
+    },
+    {
+        "category": "Serology",
+        "name": "HBs Ag"
+    },
+    {
+        "category": "Serology",
+        "name": "HCV Ab."
+    },
+    {
+        "category": "US",
+        "name": "Doppler carotid"
+    },
+    {
+        "category": "US",
+        "name": "U.S. guided biopsy"
+    },
+    {
+        "category": "US",
+        "name": "Obsteric U\/S+Obsteric Doppler"
+    },
+    {
+        "category": "US",
+        "name": "4D Obst\/ Pelvic US"
+    },
+    {
+        "category": "US",
+        "name": "Abdominal US"
+    },
+    {
+        "category": "US",
+        "name": "Abdominal\/Pelvic US (Male)"
+    },
+    {
+        "category": "US",
+        "name": "Abdominal-Pelvic US (Female)"
+    },
+    {
+        "category": "US",
+        "name": "AMBULATORY BLOOD PRESSURE US"
+    },
+    {
+        "category": "US",
+        "name": "ANOMALY US"
+    },
+    {
+        "category": "US",
+        "name": "Both Limbs Doppler US"
+    },
+    {
+        "category": "US",
+        "name": "Breast US"
+    },
+    {
+        "category": "US",
+        "name": "Coloured Doppler Scrotal US"
+    },
+    {
+        "category": "US",
+        "name": "Doppler US (one Limb)"
+    },
+    {
+        "category": "US",
+        "name": "ECG"
+    },
+    {
+        "category": "US",
+        "name": "ECHO"
+    },
+    {
+        "category": "US",
+        "name": "Obstetric US"
+    },
+    {
+        "category": "US",
+        "name": "Opthalmic US"
+    },
+    {
+        "category": "US",
+        "name": "OTHER SOFT TISSUE US"
+    },
+    {
+        "category": "US",
+        "name": "Pediatrics ECHO"
+    },
+    {
+        "category": "US",
+        "name": "Pelvic US"
+    },
+    {
+        "category": "US",
+        "name": "Pelvics (NAF\/ 9bd) US"
+    },
+    {
+        "category": "US",
+        "name": "Pre & Post ECG US"
+    },
+    {
+        "category": "US",
+        "name": "Transrectal Prostate US"
+    },
+    {
+        "category": "US",
+        "name": "Scrotal US"
+    },
+    {
+        "category": "US",
+        "name": "Soft Tissue US"
+    },
+    {
+        "category": "US",
+        "name": "SONO-HSG US"
+    },
+    {
+        "category": "US",
+        "name": "Stress ECG"
+    },
+    {
+        "category": "US",
+        "name": "Stress ECHO"
+    },
+    {
+        "category": "US",
+        "name": "Thyroid US"
+    },
+    {
+        "category": "US",
+        "name": "Trans Rectal US"
+    },
+    {
+        "category": "US",
+        "name": "Transfontanelle US"
+    },
+    {
+        "category": "US",
+        "name": "Transvaginal US"
+    },
+    {
+        "category": "US",
+        "name": "Obstetric & Biophysical Profile US"
+    },
+    {
+        "category": "US",
+        "name": "Pelvic Scan (Prostate Men) US"
+    },
+    {
+        "category": "US",
+        "name": "Doppler Scan (Both legs) US"
+    },
+    {
+        "category": "US",
+        "name": "Doppler US (Both Limbs)"
+    },
+    {
+        "category": "US",
+        "name": "Transvaginal ultrasound"
+    },
+    {
+        "category": "US",
+        "name": "Abdominal scan"
+    },
+    {
+        "category": "US",
+        "name": "HOLTER MONITORING"
+    },
+    {
+        "category": "US",
+        "name": "Doppler arterial (one limb)"
+    },
+    {
+        "category": "US",
+        "name": "Doppler arterial bilateral"
+    },
+    {
+        "category": "US",
+        "name": "Doppler obstelric"
+    },
+    {
+        "category": "US",
+        "name": "Doppler on Organs"
+    },
+    {
+        "category": "US",
+        "name": "Doppler scrotal"
+    },
+    {
+        "category": "US",
+        "name": "Doppler venous (one limb)"
+    },
+    {
+        "category": "US",
+        "name": "Doppler venous bilateral"
+    },
+    {
+        "category": "US",
+        "name": "doppler both upper limb"
+    },
+    {
+        "category": "US",
+        "name": "Transcranial Doppler"
+    },
+    {
+        "category": "US",
+        "name": "Lesional Doppler"
+    },
+    {
+        "category": "Consultation",
+        "name": "CONSULTATION (GENERAL) "
+    },
+    {
+        "category": "Outsource",
+        "name": "MEASLES IgM."
+    },
+    {
+        "category": "Lab",
+        "name": "Monoclonal Antibody: CD20(Pan-B)"
+    },
+    {
+        "category": "Lab",
+        "name": "Monoclonal Antibody: CD38"
+    },
+    {
+        "category": "Lab",
+        "name": "Monoclonal Antibody: CD68"
+    },
+    {
+        "category": "Outsource",
+        "name": "Alpha Methylacyl- CoA Recemase Stain (AMACR)"
+    },
+    {
+        "category": "Outsource",
+        "name": "High Molecular Weigh Cytokeratin (HMWCK) Staining"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Cerebral Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Carotid Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Thoracic Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Abdominal Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Upper Limb Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Lower Limb Angiography"
+    },
+    {
+        "category": "radiology ",
+        "name": "CT Soil Sample"
+    },
+    {
+        "category": "Outsource",
+        "name": "Gluten intolerance "
+    },
+    {
+        "category": "Outsource",
+        "name": "Chlamydia Antibodies"
+    },
+    {
+        "category": "Pathology - Others ",
+        "name": "Testosterone Profile(Testosterone, SHBG & FAI (Females))"
+    },
+    {
+        "category": "Lab",
+        "name": "Cotinine"
+    },
+    {
+        "category": "Lab",
+        "name": "Myoglobin in urine"
+    },
+    {
+        "category": "Outsource",
+        "name": "Serolimus (serum)"
+    }
+]

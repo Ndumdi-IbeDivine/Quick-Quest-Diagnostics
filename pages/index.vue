@@ -1,23 +1,28 @@
 <template>
-    <div>
+    <div class="text-white">
         <div class="hero">
             <!-- <img src="/assets/images/hero.png" alt=""> -->
              <div class="grid gap-5 content-center h-full text-white website-paddings lg:me-[700px]">
-                 <h1 class="mt-20"><span class="use-pacifico-regular">Extensive, accurate,</span> and <span class="use-pacifico-regular ">timely</span> medical tests</h1>
+                 <h1 class="mt-20"><span class="">Extensive, accurate,</span> and <span class="">timely</span> medical tests</h1>
                  <p class="l-p">Get your extensive reliable medical tests results all in one place.</p>
                  <div>
-                    <PrimaryBtn>See tests we do</PrimaryBtn>
+                    <NuxtLink to="/tests" class="text-white">
+                        <PrimaryBtn>See tests we do</PrimaryBtn>
+                    </NuxtLink>
                  </div>
              </div>
         </div>
 
         <main class="bg-[#09041C] text-white website-paddings grid gap-16">
-            <section class="lg:px-24 grid grid-cols-2 align-center mt-16">
+            <section class="lg:px-24 grid grid-cols-2 items-center mt-20 gap-10">
                 <div>
                     <h1>Become the boss of your health</h1>
                     <p class="l-p mt-5">We are a diagnostic centre that is wholly dedicated to providing accurate and timely medical diagnostic services to both individuals and corporate organisations. Get your extensive reliable medical tests results all in one place. See where you can find us.</p>
                 </div>
-                <div></div>
+                <div class="flex gap-4">
+                    <img src="/assets/images/qqd-image-3-trimmed.jpg" class="mt-32 w-1/2 h-[700px]" alt="">
+                    <img src="/assets/images/qqd-image-2-trimmed.jpg" class="w-1/2 h-[700px]" alt="">
+                </div>
             </section>
 
             <!-- tests -->
@@ -31,14 +36,21 @@
                         </div>
                     </div>
                     <div class="grid mt-8 grid-cols-3 gap-5">
-                        <TestCard v-for="i in 6" />
+                        <TestCard v-for="test in tests.slice(0, 6)" :test="test" />
+                    </div>
+                    <div class="flex justify-center mt-10">
+                        <NuxtLink to="/tests" class="text-white">
+                            <PrimaryBtn>See all tests</PrimaryBtn>
+                        </NuxtLink> 
                     </div>
                 </div>
             </section>
 
             <!-- why choose us -->
-            <section class="lg:px-24 grid grid-cols-2 align-center">
-                <div></div>
+            <section class="lg:px-24 gap-10 grid grid-cols-2 items-center">
+                <div>
+                    <img src="/assets/images/qqd-image-4.jpg" alt="">
+                </div>
                 <div class="grid gap-3">
                     <div class="sm-header">Why choose Quick Quest</div>
                     <h1>Our mission is to promote overall wellness and improve healthcare outcomes</h1>
@@ -81,24 +93,19 @@
                     </div>
                 </div>
             </section>
-
-
-            <div class="flex justify-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.754858082883!2d3.4400431000000005!3d6.425533799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5162cb76387%3A0xc3286790908ca7eb!2s12%20Kayode%20Abraham%20St%2C%20Victoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1741918691507!5m2!1sen!2sng" width="800" height="600" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
         </main>
     </div>
 </template>
 
 <script setup lang="ts">
-
+import tests from '~/assets/tests.json'
 </script>
 
 <style scoped>
 .hero {
     background: 
-        linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, var(--background-accent) 100%),
-        url('/assets/images/hero-2.png');
+        linear-gradient(rgba(255, 255, 255, 0) 60%, var(--background-accent) 100%),
+        url('/assets/images/hero.jpg');
     background-position: center;
     height: 90vh;
 }

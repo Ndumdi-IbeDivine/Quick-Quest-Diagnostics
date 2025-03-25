@@ -26,16 +26,16 @@
                                 <p
                                     class="grey-text text-lg font-medium mb-3"
                                 >
-                                    Test
+                                    {{ test.category }}
                                 </p>
                                 <p class="mb-3">
-                                    about type
+                                    {{ test.name }}
                                 </p>
                                 
-                                <div class="grid gap-5 grid-cols-2">
+                                <!-- <div class="grid gap-5 grid-cols-2">
                                     <div class="grey-text">location</div>
                                     <div class="grey-text">price</div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -44,3 +44,16 @@
         </section>
     </div>
 </template>
+
+<script setup lang="ts">
+interface Test {
+    name: string
+    category: string
+    price?: number
+    location?: string
+}
+
+defineProps<{
+  test: Test
+}>()
+</script>

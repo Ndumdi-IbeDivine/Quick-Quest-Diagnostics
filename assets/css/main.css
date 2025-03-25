@@ -10,13 +10,13 @@
 
 :root {
     --background-accent: #09041C;
-    --light-accent-color-text: #9770ba;
+    --light-accent-color-text: #0089d2;
+    --primary-color: #0089d2;
     --grey-text: #a3a0a0;
 }
 
 * {
     scroll-behavior: smooth;
-    color: white;
 }
 
 .use-pacifico-regular {
@@ -102,13 +102,23 @@ h6 {
 }
 
 .glassmorph {
-    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
-    border-radius: 16px; /* Rounded corners */
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    padding: 20px; /* Inner spacing */
+    background: rgba(139, 139, 139, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: var(--background-accent);
+    z-index: 1000;
+}
+
+nav {
+    transition: all 0.5s;
 }
 
 .website-margins {

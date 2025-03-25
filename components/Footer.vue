@@ -1,10 +1,12 @@
 <template>
-    <footer class="text-gray-600 website-paddings">
-        <div class="py-24">
+    <footer class="text-white website-paddings">
+        <div class="py-10">
+            <div>
+                <img src="/assets/images/qqd-logo-gold.png" class="size-40" alt="">
+            </div>
             <div class="grid md:grid-cols-3">
                 <div class="px-4">
                     <div class="list-none mb-10">
-                        <div>logo</div>
                         <p class="mt-5">
                             Quick Quest Diagnostics offers accurate and timely
                             medical diagnostic services to individuals and
@@ -14,7 +16,7 @@
                 </div>
                 <div class="w-full lg:px-20">
                     <h5 class="uppercase">Quick links</h5>
-                    <nav class="list-none mb-10">
+                    <nav class="list-none mb-10 mt-5">
                         <li v-for="navItem in navItems" :key="navItem.name">
                             <RouterLink :to="navItem.link">{{ navItem.name }}</RouterLink>
                         </li>
@@ -43,7 +45,7 @@
         <div class="border-t-2 border-gray-200">
             <div class="py-6 flex items-center">
                 <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-                    © Quick Quest - {{ new Date().getFullYear() }}
+                    © {{ new Date().getFullYear() }}. Quick Quest Diagnostics, All Rights Reserved.
                 </p>
                 <span
                     class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"

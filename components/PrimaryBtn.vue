@@ -18,7 +18,7 @@ button::before {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: rgba(255,255,255,0.1);
   transition: all 0.3s;
 }
@@ -35,7 +35,7 @@ button::after {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  /* z-index: 1; */
   opacity: 0;
   transition: all 0.3s;
   border: 1px solid rgba(255,255,255,0.5);
@@ -45,7 +45,7 @@ button::after {
 
 button:hover::after {
     background-color: transparent;
-  opacity: 1;
-  transform: scale(1,1);
+    opacity: 1;
+    transform: scale(1,1);
 }
 </style>
