@@ -6,7 +6,7 @@
                     <img src="/assets/images/qqd-logo.png" class="size-20" alt="">
                 </NuxtLink>
                 </div>
-            <div class="flex gap-10 justify-end">
+            <div class="flex gap-16 font-bold text-slate-200 justify-end">
                 <RouterLink v-for="navItem in navItems" :key="navItem.name" :to="navItem.link" active-class="active">
                     {{ navItem.name }}
                 </RouterLink>
@@ -29,10 +29,10 @@ const navItems = [
         name: 'Tests',
         link: '/tests'
     },
-    {
-        name: 'Department',
-        link: '/department'
-    }
+    // {
+    //     name: 'Department',
+    //     link: '/department'
+    // }
 ]
 
 let navbar = ref<HTMLElement | null>(null)

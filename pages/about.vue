@@ -5,7 +5,7 @@
         </section>
 
         <section class="bg-white website-paddings text-black">
-            <div class="lg:px-24 py-10 grid grid-cols-2 mt-20">
+            <div class="lg:px-24 py-10 gap-10 grid grid-cols-2 mt-20 items-center">
                 <div class="grid gap-5">
                     <div class="sm-header">Our Mission</div>
                     <h1>
@@ -15,7 +15,9 @@
                         We are empowering people with in-depth knowledge about their health, thus enabling them to take informed decisions towards better health. At Quick Quest Diagnostics, our mission is to promote overall wellness and improve healthcare outcomes by conducting an in-depth and timely quest into each and every diagnostic test with utmost precision and speed.
                     </p>
                 </div>
-                <div></div>
+                <div>
+                    <img src="/assets/images/qqd-image-5.jpg" alt="">
+                </div>
             </div>
         </section>
 
@@ -56,6 +58,4 @@
 </template>
 
 <style scoped>
-* {
-}
 </style>

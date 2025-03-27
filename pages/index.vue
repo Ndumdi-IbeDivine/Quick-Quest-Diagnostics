@@ -7,7 +7,8 @@
                  <p class="l-p">Get your extensive reliable medical tests results all in one place.</p>
                  <div>
                     <NuxtLink to="/tests" class="text-white">
-                        <PrimaryBtn>See tests we do</PrimaryBtn>
+                        <!-- <PrimaryBtn>See tests we do</PrimaryBtn> -->
+                         <PrimaryBtn>Find the test you need today!</PrimaryBtn>
                     </NuxtLink>
                  </div>
              </div>
