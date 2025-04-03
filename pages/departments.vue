@@ -35,7 +35,10 @@
                 </div>
 
                 <div class="grid grid-cols-3 gap-5 mt-10">
-                    <TestCard v-for="i in 10" :test="a" />
+                    <!-- <TestCard v-for="i in 10" :test="a" /> -->
+                     <div v-for="department in departments">
+                        {{ department.name }}
+                     </div>
                 </div>
             </div>
         </section>
@@ -43,12 +46,23 @@
 </template>
 
 <script setup lang="ts">
-const a = {
-    name: 'string',
-    category: 'string',
-    price: 20,
-    location: 'string'
-}
+import tests from '@/assets/tests.json'
+
+let departmentTests = ref<any[]>([])
+
+tests.forEach(test => {
+    // Find the existing category in departmentTests
+    let category = departmentTests.value.find(dTest => dTest.name === test.category);
+
+    if (!category) {
+        // If category doesn't exist, create a new one
+        category = { name: test.category, tests: [] };
+        departmentTests.value.push(category);
+    }
+
+    // Add the test to the category
+    category.tests.push(test);
+});
 
 const departments = [
     {
