@@ -1,0 +1,98 @@
+[
+    {
+        "category": "Serology",
+        "class": "fa-solid fa-droplet", 
+        "style": "color: #62415c"
+    },
+    {
+        "category": "Haematology",
+        "class": "fa-solid fa-droplet", 
+        "style": "color: #f00000"
+    },
+    {
+        "category": "Bacteriology",
+        "class": "fa-solid fa-bacteria", 
+        "style": "color: #63E6BE"
+    },
+    {
+        "category": "Chemistry",
+        "class": "fa-solid fa-vial"
+    },
+    {
+        "category": "CR (Computed Radiography)",
+        "class": "fa-solid fa-radiation"
+    },
+    {
+        "category": "CT (Computed Tomography)",
+        "class": "fa-solid fa-circle-radiation", 
+        "style": "color: #B197FC"
+    },
+    {
+        "category": "Endocrinology",
+        "class": "fa-solid fa-brain", 
+        "style": "color: #32a972"
+    },
+    {
+        "category": "Immunology",
+        "class": "fa-solid fa-syringe",
+        "style": "color: #a21667"
+    },
+    {
+        "category": "Molecular Biology",
+        "class": "fa-solid fa-dna"
+    },
+    {
+        "category": "Outsource",
+        "class": "fa-solid fa-tag", 
+        "style": "color: #63E6BE"
+    },
+    {
+        "category": "EGG (Electroencephalography)",
+        "class": "fa-solid fa-brain", 
+        "style": "color: #32a972"
+    },
+    {
+        "category": "Endoscopy",
+        "class": "fa-solid fa-glass-water-droplet",
+        "style": "color: #4f1c1c;"
+    },
+    {
+        "category": "Histopathology",
+        "class": "fa-solid fa-dna", 
+        "style": "color: blue"
+    },
+    {
+        "category": "MRI (Magnetic Resonance Imaging)",
+        "class": "fa-solid fa-radiation",
+        "style": "color: #7699d6"
+    },
+    {
+        "category": "Chemical Pathology",
+        "class": "fa-solid fa-virus",
+        "style": "color: #32a972"
+    },
+    {
+        "category": "Immunology",
+        "class": "fa-solid fa-tagdna", 
+        "style": "color: #63E6BE"
+    },
+    {
+        "category": "Cytology",
+        "class": "fa-solid fa-dna", 
+        "style": "color: #32a972"
+    },
+    {
+        "category": "Radiology",
+        "class": "fa-solid fa-circle-radiation",
+        "style": "color: #4f1c1c;"
+    },
+    {
+        "category": "Lab",
+        "class": "fa-solid fa-flask",
+        "style": "color: #63E6BE;"
+    },
+    {
+        "category": "US",
+        "class": "fa-solid fa-circle-radiation"
+    }
+]

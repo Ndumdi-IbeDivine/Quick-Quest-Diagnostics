@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="w-full text-gray-600 body-font">
+        <section v-if="test" class="w-full text-gray-600 body-font">
             <div>
                 <div>
                     <div>
@@ -10,23 +10,17 @@
                         <div
                             class="w-16 h-16 sm:mr-4 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 flex-shrink-0"
                         >
-                            <svg
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                class="w-8 h-8"
-                                viewBox="0 0 24 24"
-                            >
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                            </svg>
+                            <i 
+                                :class="returnTestIcon(test.category)?.class"
+                                class="w-7 h-7"
+                                :style="returnTestIcon(test.category)?.style"
+                            ></i>
                         </div>
                         <div class="">
                                 <p
                                     class="grey-text text-lg font-medium mb-3"
                                 >
-                                    {{ test.category }}
+                                    {{ capitalizeFirstLetter(test.category) }}
                                 </p>
                                 <p class="mb-3">
                                     {{ test.name }}
@@ -46,6 +40,12 @@
 </template>
 
 <script setup lang="ts">
+import testFonts from '@/assets/testFonts.json'
+
+defineProps<{
+  test: Test
+}>()
+
 interface Test {
     name: string
     category: string
@@ -53,7 +53,9 @@ interface Test {
     location?: string
 }
 
-defineProps<{
-  test: Test
-}>()
+function returnTestIcon(category: string) {
+    return testFonts.find(testFont => testFont.category.toLowerCase() === category.toLowerCase());
+}
+
+const capitalizeFirstLetter = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 </script>
