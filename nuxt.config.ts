@@ -19,4 +19,9 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  runtimeConfig: {
+    public: {
+      FONT_AWESOME: process.env.FONT_AWESOME
+    },
+  },
 });
