@@ -2,10 +2,10 @@
     <footer class="text-white website-paddings">
         <div class="py-10">
             <div>
-                <img src="/assets/images/qqd-logo-gold.png" class="size-40" alt="">
+                <img src="/assets/images/qqd-logo-gold-trimmed.png" class="size-30" alt="">
             </div>
             <div class="grid md:grid-cols-3">
-                <div class="px-4">
+                <div class="lg:px-4">
                     <div class="list-none mb-10">
                         <p class="mt-5">
                             Quick Quest Diagnostics offers accurate and timely
@@ -22,7 +22,7 @@
                         </li>
                     </nav>
                 </div>
-                <div class="w-full px-4">
+                <div class="w-full lg:px-4">
                     <h5 class="uppercase">Contact</h5>
                     <div class="mt-5 grid gap-3">
                         <div class="flex gap-3">
@@ -140,7 +140,7 @@ const navItems = [
     },
     {
         name: 'Department',
-        link: '/department'
+        link: '/departments'
     }
 ]
 </script>

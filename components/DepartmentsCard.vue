@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm">
+    <NuxtLink :to="`/departments/${department.name.replace(' ', '-').toLowerCase()}`">
+        <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm cursor-pointer card-container">
             <i 
                 :class="returnTestIcon(department.name)?.class"
                 class="fa-2x"
@@ -13,9 +13,11 @@
                 {{ tests.filter(d => d.category.toLowerCase() === department.name.toLowerCase()).length }} available tests
             </p>
 
-            <i class="fa-solid fa-arrow-right-long"></i>
+            <span class="arrow-icon">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
         </div>
-    </div>
+    </NuxtLink>
 </template>
 
 <script setup lang="ts">
@@ -39,3 +41,23 @@ function returnTestIcon(name: string) {
 
 const capitalizeFirstLetter = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 </script>
+
+<style scoped>
+.card-container {
+    transition: transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.card-container:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-container:hover .arrow-icon {
+    transform: translateX(10px);
+}
+
+</style>

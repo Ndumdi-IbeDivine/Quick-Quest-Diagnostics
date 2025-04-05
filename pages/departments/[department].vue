@@ -1,49 +1,31 @@
 <template>
     <div>
-        <section class="website-paddings bg-[var(--background-accent)] text-white grid items-center h-[70vh] lg:h-[50vh]">
-            <h1 class="mt-20">Find the test you need today!</h1>
-        </section>
 
-        <section class="lg:px-40 mt-10 mb-10 bg-white text-black">
+        <section v-if="departmentDetails" class="lg:px-40 px-5 mt-40 mb-10 bg-white text-black">
             <div>
-                <!-- <div>
-                    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search for test</label>
-                    <div class="relative">
-                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-                            </svg>
-                        </div>
-                        <input type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for test" />
-                        <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 cursor-pointer">Search</button>
-                    </div>
-                </div> -->
+                <div class="text-center">
+                    <i 
+                        :class="returnTestIcon(departmentDetails.name)?.class"
+                        class="fa-2x"
+                        :style="returnTestIcon(departmentDetails.name)?.style"
+                    ></i>
 
-                <div class="mt-10">
-                    <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
-                        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
-                            <li class="me-2" role="presentation">
-                                <NuxtLink to="/tests">
-                                    <button class="inline-block p-4 border-b-2 rounded-t-lg cursor-pointer" id="tests" data-tabs-target="#profile" type="button" role="tab" aria-controls="tests" aria-selected="false">All tests</button>
-                                </NuxtLink>
-                            </li>
-                            <li class="me-2" role="presentation">
-                                <button class="inline-block p-4 border-b-2 border-blue-400 rounded-t-lg cursor-pointer" id="departments-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="departments" aria-selected="false">Departments</button>
-                            </li>
-                        </ul>
-                    </div>
+                    <h3>
+                        {{ departmentDetails.name }}
+                    </h3>
+                    <p class="mt-2 text-gray-500 lg:px-60 l-p">
+                        {{ departmentDetails.description }}
+                    </p>
                 </div>
-
-                <p v-for="(a, index) in departmentTests">
-                    {{ a[index] }}
-                </p>
                 
-                <div class="grid grid-cols-3 gap-5 mt-10">
-                    <DepartmentsCard 
-                        v-for="department in departments" 
-                        :department="department"
-                        :departmentTests="departmentTests"
+                <div v-if="departmentTest" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-16">
+                    <TestCard
+                        v-for="test in departmentTest.tests" 
+                        :test="test"
                     />
+                </div>
+                <div v-else class="mt-10 text-center">
+                    <p>No test available</p>
                 </div>
             </div>
         </section>
@@ -52,8 +34,13 @@
 
 <script setup lang="ts">
 import tests from '@/assets/tests.json'
+import testFonts from '@/assets/testFonts.json'
+
+let route = useRoute()
 
 let departmentTests = ref<any[]>([])
+let departmentTest = ref<any>()
+let departmentDetails = ref<any>(null)
 
 tests.forEach(test => {
     let category = departmentTests.value.find(dTest => dTest.name === test.category);
@@ -66,6 +53,11 @@ tests.forEach(test => {
     // Add the test to the category
     category.tests.push(test);
 });
+console.log(departmentDetails.value)
+
+function returnTestIcon(category: string) {
+    return testFonts.find(testFont => testFont.category.toLowerCase() === category.toLowerCase());
+}
 
 const departments = [
     {
@@ -146,6 +138,26 @@ const departments = [
     }
 
 ]
+
+onMounted(() => {
+    let dept = route.params.department as string;
+    dept = dept.replace('-', ' ');
+
+    // Get department details
+    departmentDetails.value = departments.find(department =>
+    department.name.toLowerCase() === dept.toLowerCase()
+    );
+
+    console.log(departmentDetails.value);
+
+    departmentTests.value.forEach(department => {
+        console.log(department.name.toLowerCase())
+        if (department.name.toLowerCase() === departmentDetails.value?.name.toLowerCase()) {
+            departmentTest.value = department;
+        }
+    });
+
+})
 </script>
 
 <style scoped>

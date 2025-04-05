@@ -5,7 +5,7 @@
         </section>
 
         <section class="bg-white website-paddings text-black">
-            <div class="lg:px-24 py-10 gap-10 grid grid-cols-2 mt-20 items-center">
+            <div class="lg:px-24 py-10 gap-10 grid md:grid-cols-2 mt-20 items-center">
                 <div class="grid gap-5">
                     <div class="sm-header">Our Mission</div>
                     <h1>
@@ -21,15 +21,15 @@
             </div>
         </section>
 
-        <section class="bg-white text-black">
+        <section class="bg-white mb-5 mb:mb-0 text-black">
             <h2 class="text-center">Contact</h2>
-            <div class="grid grid-cols-3 mt-7 items-center">
+            <div class="grid md:grid-cols-3 mt-7 items-center">
                 <div class="col-span-2">
                     <div class="flex justify-center">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.754858082883!2d3.4400431000000005!3d6.425533799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5162cb76387%3A0xc3286790908ca7eb!2s12%20Kayode%20Abraham%20St%2C%20Victoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1741918691507!5m2!1sen!2sng" class="w-full" height="600" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="px-10">
+                <div class="py-10 px-10">
                     <div class="flex gap-3">
                         <span><i class="bi bi-house"></i></span>
                         <p class="l-p">
