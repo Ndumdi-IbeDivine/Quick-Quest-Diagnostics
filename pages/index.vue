@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="grid mt-8 grid-cols-3 gap-5">
-                        <TestCard v-for="test in tests.slice(0, 6)" :test="test" />
+                        <TestCard v-for="test in tests.slice(0, 6)" mode="dark" :test="test" />
                     </div>
                     <div class="flex justify-center mt-10">
                         <NuxtLink to="/tests" class="text-white">
