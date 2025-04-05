@@ -4,9 +4,9 @@
             <h1 class="mt-20">Find the test you need today!</h1>
         </section>
 
-        <section class="lg:px-40 mt-10 mb-10 bg-white text-black">
+        <section class="lg:px-40 px-5 mt-10 mb-10 bg-white text-black">
             <div>
-                <div>
+                <!-- <div>
                     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search for test</label>
                     <div class="relative">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -18,10 +18,16 @@
                         <input v-model="searchQuery" @keypress.enter="search" type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for test" />
                         <button type="submit" @click="search" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 cursor-pointer">Search</button>
                     </div>
-                </div>
+                </div> -->
 
                 <div v-if="isSorted" class="mt-10">
                     <p>Showing test results containing '{{ searchQuery }}'</p>
+                </div>
+
+                <div v-if="isSorted">
+                    <PrimaryBtn @click="clearSearch" class="mt-5">
+                        Clear search
+                    </PrimaryBtn>
                 </div>
 
                 <div class="mt-10">
@@ -39,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-3 gap-5 mt-10">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
                     <TestCard v-for="test in sortedTests" :test="test" />
                 </div>
             </div>
@@ -49,16 +55,33 @@
 
 <script setup lang="ts">
 import tests from '~/assets/tests.json'
+import { ref } from 'vue'
 
-let sortedTests = ref(tests)
-
-let searchQuery = ref<string>('')
-let isSorted = ref<boolean>(false)
+const searchQuery = ref<string>('')
+const sortedTests = ref([...tests]) // initialize with a fresh copy
+const isSorted = ref(false)
 
 function search() {
-    sortedTests.value = tests.filter((test) => test.name.toLowerCase().includes(searchQuery.value.toLowerCase()))
-    isSorted.value = true
+  const query = searchQuery.value.trim().toLowerCase()
+
+  if (!query) {
+    clearSearch()
+    return
+  }
+
+  sortedTests.value = tests.filter(test =>
+    test.name.toLowerCase().includes(query)
+  )
+
+  isSorted.value = true
 }
+
+function clearSearch() {
+  searchQuery.value = ''    
+  sortedTests.value = [...tests] // reset to a fresh copy
+  isSorted.value = false
+}
+
 </script>
 
 <style scoped>

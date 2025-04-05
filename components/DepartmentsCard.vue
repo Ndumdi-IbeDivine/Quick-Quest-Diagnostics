@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm cursor-pointer card-container">
+    <NuxtLink :to="`/departments/${department.name.replace(' ', '-').toLowerCase()}`">
+        <div class="p-6 bg-white border border-gray-200 rounded-lg shadow-sm cursor-pointer card-container">
             <i 
                 :class="returnTestIcon(department.name)?.class"
                 class="fa-2x"
@@ -17,7 +17,7 @@
                 <i class="fa-solid fa-arrow-right-long"></i>
             </span>
         </div>
-    </div>
+    </NuxtLink>
 </template>
 
 <script setup lang="ts">

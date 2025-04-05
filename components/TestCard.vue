@@ -2,12 +2,13 @@
     <div>
         <section v-if="test" class="w-full text-gray-600 body-font card-container">
             <div>
-                <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow-sm">
+                <div class="p-2 md:p-6 border border-gray-200 rounded-lg">
                     <i 
                         :class="returnTestIcon(test.category)?.class"
                         class="fa-2x"
                         :style="returnTestIcon(test.category)?.style"
                     ></i>
+                    <i if="test.icon" class="fa-2x" :class="test.icon" style="color: var(--primary-color)"></i>
                     <h5 class="mb-2 mt-4 text-2xl font-semibold tracking-tight" :class="[mode == 'dark' ? 'text-white' : 'text-black']">{{ test.name }}</h5>
 
                     <p class="mb-3 font-normal" :class="[mode == 'dark' ? 'grey-text' : 'text-gray-500']">{{ test.category }}</p>
@@ -30,6 +31,7 @@ defineProps<{
 interface Test {
     name: string
     category: string
+    icon?: string
     price?: number
     location?: string
 }
