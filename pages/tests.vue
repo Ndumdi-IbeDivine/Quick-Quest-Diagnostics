@@ -6,7 +6,7 @@
 
         <section class="lg:px-40 px-5 mt-10 mb-10 bg-white text-black">
             <div>
-                <!-- <div>
+                <div>
                     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search for test</label>
                     <div class="relative">
                         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -16,12 +16,12 @@
                         </div>
 
                         <input v-model="searchQuery" @keypress.enter="search" type="search" id="default-search" class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Search for test" />
-                        <button type="submit" @click="search" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 cursor-pointer">Search</button>
+                        <button type="submit" @click="search" class="text-white absolute end-2.5 bottom-2.5 bg-[#0089d2] font-medium rounded-lg text-sm px-4 py-2 cursor-pointer">Search</button>
                     </div>
-                </div> -->
+                </div>
 
                 <div v-if="isSorted" class="mt-10">
-                    <p>Showing test results containing '{{ searchQuery }}'</p>
+                    <p>Showing test results containing '{{ searchedQuery }}'</p>
                 </div>
 
                 <div v-if="isSorted">
@@ -45,8 +45,20 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
-                    <TestCard v-for="test in sortedTests" :test="test" />
+                <div  v-if="!isLoading" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+                    <TestCard v-if="sortedTests.length" v-for="test in sortedTests" :test="test" />
+                    <p v-else class="text-center mt-10">No tests to show</p>
+                </div>
+                <div v-else class="flex justify-center">
+                    <Loader />
+                </div>
+
+                <div v-if="!isSorted" class="mt-5 grid gap-5 justify-center">
+                    <p>Showing {{ testPerPage < tests.length ? testPerPage : tests.length }} test out of {{ tests.length }}</p>
+
+                    <PrimaryBtn @click="increaseTestPage">
+                        Load more
+                    </PrimaryBtn>
                 </div>
             </div>
         </section>
@@ -57,29 +69,59 @@
 import tests from '~/assets/tests.json'
 import { ref } from 'vue'
 
-const searchQuery = ref<string>('')
-const sortedTests = ref([...tests]) // initialize with a fresh copy
-const isSorted = ref(false)
-
-function search() {
-  const query = searchQuery.value.trim().toLowerCase()
-
-  if (!query) {
-    clearSearch()
-    return
+function shuffleArray(array: any[]) {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
   }
-
-  sortedTests.value = tests.filter(test =>
-    test.name.toLowerCase().includes(query)
-  )
-
-  isSorted.value = true
+  return shuffled
 }
 
+const shuffledTests = shuffleArray(tests)
+const searchQuery = ref<string>('')
+const searchedQuery = ref<string>('')
+const testsNumber = ref<number>(100)
+const testPerPage = ref<number>(testsNumber.value)
+const sortedTests = ref([...shuffledTests].slice(0, testPerPage.value))
+const isSorted = ref(false)
+const isLoading = ref(false) 
+
+function search() {
+    isLoading.value = true
+
+    setTimeout(() => {
+        const query = searchQuery.value.trim().toLowerCase()
+        searchedQuery.value = searchQuery.value
+
+        if (!query) {
+            clearSearch()
+            return
+        }
+
+        sortedTests.value = shuffledTests.filter(test =>
+            test.name.toLowerCase().includes(query)
+        )
+
+        isSorted.value = true
+        isLoading.value = false
+    }, 0) // simulate laoding
+}
 function clearSearch() {
-  searchQuery.value = ''    
-  sortedTests.value = [...tests] // reset to a fresh copy
-  isSorted.value = false
+    searchQuery.value = ''
+    testPerPage.value = testsNumber.value
+    searchedQuery.value = searchQuery.value
+    sortedTests.value = [...shuffledTests].slice(0, testPerPage.value)
+    isSorted.value = false
+}
+
+function increaseTestPage() {
+    if (testPerPage.value >= tests.length) {
+        return
+    }
+
+    testPerPage.value += testsNumber.value
+    sortedTests.value = [...shuffledTests].slice(0, testPerPage.value)
 }
 
 </script>
