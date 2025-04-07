@@ -54,7 +54,7 @@
                 </div>
 
                 <div v-if="!isSorted" class="mt-5 grid gap-5 justify-center">
-                    <p>Showing {{ testPerPage < tests.length ? testPerPage : tests.length }} test out of {{ tests.length }}</p>
+                    <p>Showing {{ testPerPage < tests.length ? testPerPage : tests.length }} tests out of {{ tests.length }}</p>
 
                     <PrimaryBtn @click="increaseTestPage">
                         Load more
