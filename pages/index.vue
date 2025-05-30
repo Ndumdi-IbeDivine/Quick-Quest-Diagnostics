@@ -1,18 +1,6 @@
 <template>
     <div class="text-white">
-        <div class="hero">
-            <!-- <img src="/assets/images/hero.png" alt=""> -->
-             <div class="grid gap-5 content-center h-full text-white website-paddings lg:me-[700px]">
-                 <h1 class="mt-20"><span class="">Extensive, accurate,</span> and <span class="">timely</span> medical tests</h1>
-                 <p class="l-p">Get your extensive reliable medical tests results all in one place.</p>
-                 <div>
-                    <NuxtLink to="/tests" class="text-white">
-                        <!-- <PrimaryBtn>See tests we do</PrimaryBtn> -->
-                         <PrimaryBtn>Find the test you need today!</PrimaryBtn>
-                    </NuxtLink>
-                 </div>
-             </div>
-        </div>
+        <Hero />
 
         <main class="bg-[#09041C] text-white website-paddings grid gap-16">
             <section class="lg:px-24 grid md:grid-cols-2 items-center mt-20 gap-10">
@@ -125,7 +113,7 @@ let missions = [
 .hero {
     background: 
         linear-gradient(rgba(255, 255, 255, 0) 60%, var(--background-accent) 100%),
-        url('/assets/images/hero.jpg');
+        url('/images/hero.jpg');
     background-position: right;
     background-size: cover;
     height: 90vh;

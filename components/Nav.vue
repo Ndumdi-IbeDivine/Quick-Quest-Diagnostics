@@ -31,7 +31,7 @@
             <!-- {{ showNavDropdown }} -->
             <div class="w-full" id="navbar-default">
                 <div class="hidden md:flex gap-16 text-slate-200 justify-end">
-                    <RouterLink v-for="navItem in navItems" :key="navItem.name" :to="navItem.link" active-class="active">
+                    <RouterLink v-for="navItem in navItems" :key="navItem.name" :to="navItem.link" active-class="active" class="text-lg hover:underline">
                         {{ navItem.name }}
                     </RouterLink>
                 </div>

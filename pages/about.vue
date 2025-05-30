@@ -21,7 +21,7 @@
             </div>
         </section>
 
-        <section class="bg-white mb-5 mb:mb-0 text-black">
+        <section class="bg-white mb:mb-0 text-black">
             <h2 class="text-center">Contact</h2>
             <div class="grid md:grid-cols-3 mt-7 items-center">
                 <div class="col-span-2">
@@ -43,14 +43,14 @@
                             +234 811 372 3864
                         </p>
                     </div>
-                    <div class="mt-10">
+                    <!-- <div class="mt-10">
                         <PrimaryBtn class="flex gap-3 items-center">
                             <span>
                                 <i class="bi bi-envelope"></i>
                             </span>
                             <span>Send us a mail</span>
                         </PrimaryBtn>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

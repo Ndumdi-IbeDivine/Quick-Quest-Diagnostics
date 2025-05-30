@@ -1,8 +1,8 @@
 <template>
-    <footer class="text-white website-paddings">
+    <footer class="text-white website-paddings pt-10">
         <div class="py-10">
             <div>
-                <img src="/assets/images/qqd-logo-gold-trimmed.png" class="size-30" alt="">
+                <img src="/assets/images/qqd-logo-gold-trimmed.png" class="h-40" alt="">
             </div>
             <div class="grid md:grid-cols-3">
                 <div class="lg:px-4">
@@ -17,7 +17,7 @@
                 <div class="w-full lg:px-20">
                     <h5 class="uppercase">Quick links</h5>
                     <nav class="list-none mb-10 mt-5">
-                        <li v-for="navItem in navItems" :key="navItem.name">
+                        <li v-for="navItem in navItems" :key="navItem.name" class="mb-2 hover:underline">
                             <RouterLink :to="navItem.link">{{ navItem.name }}</RouterLink>
                         </li>
                     </nav>
@@ -42,12 +42,12 @@
                 </div>
             </div>
         </div>
-        <div class="border-t-2 border-gray-200">
+        <div class="border-t-1 border-slate-100">
             <div class="py-6 flex items-center">
                 <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
                     © {{ new Date().getFullYear() }}. Quick Quest Diagnostics, All Rights Reserved.
                 </p>
-                <span
+                <!-- <span
                     class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
                 >
                     <a class="text-gray-500">
@@ -118,7 +118,7 @@
                             <circle cx="4" cy="4" r="2" stroke="none"></circle>
                         </svg>
                     </a>
-                </span>
+                </span> -->
             </div>
         </div>
     </footer>
