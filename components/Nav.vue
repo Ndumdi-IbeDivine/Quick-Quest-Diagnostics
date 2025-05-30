@@ -36,7 +36,7 @@
                     </RouterLink>
                 </div>
 
-                <div v-if="showNavDropdown" class="md:hidden mb-2 flex flex-col gap-5 transition delay-150 duration-300 ease-in-out bg-[#09041C] text-white p-5 rounded-lg shadow-lg">
+                <div v-show="showNavDropdown" class="md:hidden mb-2 flex flex-col gap-5 transition delay-150 duration-300 ease-in-out bg-[#09041C] text-white p-5 rounded-lg shadow-lg">
                     <RouterLink v-for="navItem in navItems" @click="showNavDropdown = false" :key="navItem.name" :to="navItem.link" active-class="active">
                         {{ navItem.name }}  
                     </RouterLink>
