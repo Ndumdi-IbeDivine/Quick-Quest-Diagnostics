@@ -97,6 +97,9 @@ const slides = [
     { image: "/images/hero-1.jpg" },
     { image: "/images/hero-2.jpg" },
     { image: "/images/hero-3.jpg" },
+    { image: "/images/hero-4.jpg" },
+    { image: "/images/hero-5.jpg" },
+    { image: "/images/hero-6.jpg" },
 ];
 
 const currentIndex = ref(0);
