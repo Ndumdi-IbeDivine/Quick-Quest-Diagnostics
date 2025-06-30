@@ -69,6 +69,19 @@
 import tests from '~/assets/tests.json'
 import { ref } from 'vue'
 
+useHead({
+    title: "Tests",
+     meta: [
+        { name: 'keywords', content: 'cecyhealth, qqd, lab in nigeria, lab in lagos, laboratories in lagos, laboratories in nigeria' },
+        { name: 'description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.' },
+        { property: 'og:title', content: 'Tests - Quick Quest Diagnostoics' },
+        { property: 'og:description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.'},
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://https://quickquestdiagnostics.com/tests' },
+        { property: 'og:image', content: 'https://cecyhealth.org/images/qqd-logo.png'}
+    ]
+})
+
 function shuffleArray(array: any[]) {
   const shuffled = [...array]
   for (let i = shuffled.length - 1; i > 0; i--) {

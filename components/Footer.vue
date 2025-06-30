@@ -149,4 +149,8 @@ const navItems = [
 footer {
     background-color: var(--background-accent);
 }
+
+a {
+    text-decoration: underline;
+}
 </style>

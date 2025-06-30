@@ -57,5 +57,18 @@
     </div>
 </template>
 
-<style scoped>
-</style>
+<script setup>
+
+useHead({
+    title: "About",
+     meta: [
+        { name: 'keywords', content: 'cecyhealth, qqd, lab in nigeria, lab in lagos, laboratories in lagos, laboratories in nigeria' },
+        { name: 'description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.' },
+        { property: 'og:title', content: 'About - Quick Quest Diagnostoics' },
+        { property: 'og:description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.'},
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://https://quickquestdiagnostics.com/about' },
+        { property: 'og:image', content: 'https://cecyhealth.org/images/qqd-logo.png'}
+    ]
+})
+</script>

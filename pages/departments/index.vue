@@ -53,6 +53,19 @@
 <script setup lang="ts">
 import tests from '@/assets/tests.json'
 
+useHead({
+    title: "Departments",
+     meta: [
+        { name: 'keywords', content: 'cecyhealth, qqd, lab in nigeria, lab in lagos, laboratories in lagos, laboratories in nigeria' },
+        { name: 'description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.' },
+        { property: 'og:title', content: 'Departments - Quick Quest Diagnostoics' },
+        { property: 'og:description', content: 'Quick Quest Diagnostics offers extensive reliable medical tests results all in one place.'},
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://https://quickquestdiagnostics.com/departments' },
+        { property: 'og:image', content: 'https://cecyhealth.org/images/qqd-logo.png'}
+    ]
+})
+
 let departmentTests = ref<any[]>([])
 
 tests.forEach(test => {
